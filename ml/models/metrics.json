@@ -1,0 +1,73 @@
+{
+  "classification": {
+    "accuracy": 0.992,
+    "precision": 0.9883,
+    "recall": 0.9961,
+    "f1": 0.9922,
+    "best_params": {
+      "colsample_bytree": 0.9944591919201468,
+      "learning_rate": 0.03587470160238669,
+      "max_depth": 10,
+      "n_estimators": 300,
+      "subsample": 0.6403572029728711
+    }
+  },
+  "regression": {
+    "rmse": 23.4,
+    "mae": 15.65,
+    "r2": 0.9998,
+    "best_params": {
+      "learning_rate": 0.040343472274915984,
+      "max_depth": 7,
+      "n_estimators": 283,
+      "subsample": 0.6578997967435244
+    }
+  },
+  "segments": {
+    "0": {
+      "name": "Budget Shoppers",
+      "count": 1177
+    },
+    "1": {
+      "name": "Premium Buyers",
+      "count": 1166
+    },
+    "2": {
+      "name": "Occasional Browsers",
+      "count": 1407
+    },
+    "3": {
+      "name": "Loyal High-Spenders",
+      "count": 1250
+    }
+  },
+  "sales_trend": {
+    "1": 1943.79,
+    "2": 2003.65,
+    "3": 1864.31,
+    "4": 1892.69,
+    "5": 1838.41,
+    "6": 1932.23,
+    "7": 1822.84,
+    "8": 1789.16,
+    "9": 1982.51,
+    "10": 1942.41,
+    "11": 1847.12,
+    "12": 1807.59
+  },
+  "segment_features": [
+    "Quantity",
+    "UnitPrice",
+    "NumProducts",
+    "SessionLength",
+    "PagesViewed",
+    "EngagementScore",
+    "TotalSales"
+  ],
+  "segment_labels": [
+    "Budget Shoppers",
+    "Premium Buyers",
+    "Occasional Browsers",
+    "Loyal High-Spenders"
+  ]
+}
