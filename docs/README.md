@@ -82,7 +82,7 @@ npm run dev
 # Running on http://localhost:5173
 ```
 
-Open **http://localhost:5173** in your browser.
+Open **http:http://localhost:5174/ ** in your browser.
 
 ---
 
